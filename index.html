@@ -7,23 +7,20 @@
     <title>Погода | Weather app</title>
 </head>
 <body>
-    <section class="inputs">
-
-        <input type="text" placeholder="Enter any city..." id="cityinput">
-        <input type="submit" value="Submit" id="add">
-     
-        <button placeholder="submit" id="add"></button>
-     
-     </section>
-
-     <section class="display">
-        <div class="wrapper">
-            <h2 id="cityoutput"></h2>
-            <p id="description"></p>
-            <p id="temp"></p>
-            <p id="wind"></p>
+    <div class="main">
+        <div class="inputs">
+            <input type="text" placeholder="Enter any city..." id="cityinput">
+            <input type="submit" value="Submit" id="add">
         </div>
-      </section>
-      <script src="index.js"></script>
+        <div class="display">
+            <div class="wrapper">
+                <h2 id="cityoutput"></h2>
+                <p id="description"></p>
+                <p id="temp"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
