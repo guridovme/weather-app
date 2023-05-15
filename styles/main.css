@@ -4,6 +4,6 @@ body{
     width: 100%;
     background: #fff;
 }
-.inputs input [type="submit"]{
+input {
     font-family: inherit;
 }
