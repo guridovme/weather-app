@@ -7,3 +7,11 @@ body{
 input {
     font-family: inherit;
 }
+.main{
+    margin: auto;
+    width: 700px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
